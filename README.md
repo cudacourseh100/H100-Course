@@ -6,6 +6,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/thumbnail.png" alt="Course Thumbnail" width="720" />
+</p>
+
+<p align="center">
   <a href="https://cudacourseh100.github.io/">Course Website</a> ·
   <a href="https://cudacourseh100.github.io/slides.html">Slides</a> ·
   <a href="#curriculum">Curriculum</a> ·
