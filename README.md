@@ -123,12 +123,11 @@ Found an error? Open an issue on this repository. Include the lesson number, wha
 <details open>
 <summary><strong>Start Here</strong></summary>
 
-- https://www.youtube.com/watch?v=86FAWCzIe_4
-- https://www.youtube.com/watch?v=Cl2B_hmg4gA&t=7541s
-- https://www.youtube.com/watch?v=xcpEl0cGCC4&t=2335s
-- https://www.youtube.com/watch?v=lTmYrKwjSOU
-- https://developer.nvidia.com/blog/easy-introduction-cuda-c-and-c/
-- https://hazyresearch.stanford.edu/blog/2024-05-12-tk
+- [CUDA Programming course by Elliot!](https://www.youtube.com/watch?v=86FAWCzIe_4)
+- [GPU Mode: GPU Programming Fundamentals and ThunderKittens](https://www.youtube.com/watch?v=Cl2B_hmg4gA&t=7541s)
+- [CUDA + ThunderKittens (Actually very informative)](https://www.youtube.com/watch?v=xcpEl0cGCC4&t=2335s)
+- [GPU Mode Compute and Memory Basics](https://www.youtube.com/watch?v=lTmYrKwjSOU)
+- [NVIDIA Introduction to CUDA C++ and C](https://developer.nvidia.com/blog/easy-introduction-cuda-c-and-c/)
 
 </details>
 
@@ -144,13 +143,13 @@ Found an error? Open an issue on this repository. Include the lesson number, wha
 <details>
 <summary><strong>Important Blogs and Papers</strong></summary>
 
-- https://www.aleksagordic.com/blog/matmul
-- https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/
-- https://arxiv.org/pdf/2402.13499
-- https://github.com/deepseek-ai/DeepGEMM
-- https://pytorch.org/blog/hopper-tma-unit/
-- https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog
-- https://arxiv.org/pdf/2312.11918
+- [Inside NVIDIA GPUs: Anatomy of High Performance Matmul Kernels](https://www.aleksagordic.com/blog/matmul)
+- [NVIDIA Hopper Architecture In-Depth](https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/)
+- [Benchmarking and Dissecting the Nvidia Hopper GPU Architecture](https://arxiv.org/pdf/2402.13499)
+- [DeepGEMM: Clean and Efficient FP8 GEMM Kernels](https://github.com/deepseek-ai/DeepGEMM)
+- [Deep Dive on the Hopper TMA Unit for FP8 GEMMs](https://pytorch.org/blog/hopper-tma-unit/)
+- [Outperforming cuBLAS on H100: a Worklog](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog)
+- [A Case Study in CUDA Kernel Fusion: Implementing FlashAttention-2 on NVIDIA Hopper Architecture using the CUTLASS Library](https://arxiv.org/pdf/2312.11918)
 
 </details>
 
