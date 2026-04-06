@@ -31,6 +31,28 @@ The course website contains the lesson pages, slide decks, and the structured pa
 
 ---
 
+## Clone With Submodules
+
+This repository uses Git submodules for `ThunderKittens` and `cutlass`. If you use a plain `git clone`, those directories will be created without their contents.
+
+Clone the repository like this:
+
+```bash
+git clone --recurse-submodules https://github.com/cudacourseh100/H100-Course.git
+```
+
+If you already cloned the repo without submodules, run:
+
+```bash
+git submodule update --init --recursive
+```
+
+If you want Git to do this automatically for future clones on your machine, you can also set:
+
+```bash
+git config --global clone.recurseSubmodules true
+```
+
 This course is about how modern H100-class kernels actually work. It covers the asynchronous Hopper execution model, descriptor-driven data movement, synchronization under overlap, tensor-core issue through WGMMA, warp-specialized kernel design, and the multi-GPU orchestration required for real training systems.
 
 This is not a beginner CUDA crash course. It is built for engineers who want the machine model, the PTX-level mechanisms, and the systems context together.
@@ -189,4 +211,3 @@ This course would not exist without the work and generosity of the following peo
 ## Support
 
 If you find this course useful, consider [sponsoring the project](https://github.com/sponsors/prateekshukla1108). If this course helped you, star the repo — it helps others find it.
-
