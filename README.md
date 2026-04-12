@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://cudacourseh100.github.io/">Course Website</a> ·
   <a href="https://cudacourseh100.github.io/slides.html">Slides</a> ·
+  <a href="#start-here">Start Here</a> ·
   <a href="#curriculum">Curriculum</a> ·
   <a href="#important-resources">Important Resources</a>
 </p>
@@ -23,11 +24,19 @@
 </p>
 
 
-## Course Website
+## Start Here
 
-**Start here:** [https://cudacourseh100.github.io/](https://cudacourseh100.github.io/)
+**Course website:** [https://cudacourseh100.github.io/](https://cudacourseh100.github.io/)
 
 The course website contains the lesson pages, slide decks, and the structured path through all the material. This README is a reference — the website is where you learn.
+
+**This course is not for beginners.** It assumes you are already comfortable with C/C++, have written CUDA kernels before, and can follow tiled GEMM code on GPU. If you are still getting your footing with CUDA, start with the resources below before jumping into the lessons.
+
+- [CUDA Programming course by Elliot!](https://www.youtube.com/watch?v=86FAWCzIe_4)
+- [GPU Mode: GPU Programming Fundamentals and ThunderKittens](https://www.youtube.com/watch?v=Cl2B_hmg4gA&t=7541s)
+- [CUDA + ThunderKittens (Actually very informative)](https://www.youtube.com/watch?v=xcpEl0cGCC4&t=2335s)
+- [GPU Mode Compute and Memory Basics](https://www.youtube.com/watch?v=lTmYrKwjSOU)
+- [NVIDIA Introduction to CUDA C++ and C](https://developer.nvidia.com/blog/easy-introduction-cuda-c-and-c/)
 
 ---
 
@@ -55,7 +64,7 @@ git config --global clone.recurseSubmodules true
 
 This course is about how modern H100-class kernels actually work. It covers the asynchronous Hopper execution model, descriptor-driven data movement, synchronization under overlap, tensor-core issue through WGMMA, warp-specialized kernel design, and the multi-GPU orchestration required for real training systems.
 
-This is not a beginner CUDA crash course. It is built for engineers who want the machine model, the PTX-level mechanisms, and the systems context together.
+It is built for engineers who want the machine model, the PTX-level mechanisms, and the systems context together.
 
 | Course Info | Details |
 | --- | --- |
@@ -141,17 +150,6 @@ The course repeatedly maps ideas back to real Hopper code instead of stopping at
 Found an error? Open an issue on this repository. Include the lesson number, what's wrong, and what the correction should be. Pull requests with fixes are also welcome.
 
 ## Important Resources
-
-<details open>
-<summary><strong>Start Here</strong></summary>
-
-- [CUDA Programming course by Elliot!](https://www.youtube.com/watch?v=86FAWCzIe_4)
-- [GPU Mode: GPU Programming Fundamentals and ThunderKittens](https://www.youtube.com/watch?v=Cl2B_hmg4gA&t=7541s)
-- [CUDA + ThunderKittens (Actually very informative)](https://www.youtube.com/watch?v=xcpEl0cGCC4&t=2335s)
-- [GPU Mode Compute and Memory Basics](https://www.youtube.com/watch?v=lTmYrKwjSOU)
-- [NVIDIA Introduction to CUDA C++ and C](https://developer.nvidia.com/blog/easy-introduction-cuda-c-and-c/)
-
-</details>
 
 <details>
 <summary><strong>Books</strong></summary>
